@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_4.css">
+    <title>Модальное окно</title>
+</head>
+<body>
+    <header>
+        <div class="header-top"> 
+            <div class="header-top-location">
+                <img class="location" src="C:\Users\tahmi\Desktop\InfoTech\svg\location.svg" alt="location-icon">
+                <span><a href=""> ул. Дружба Народов 62 </a></span>
+            </div>
+            <div class="header-top-tel">
+                <img class="call" src="C:\Users\tahmi\Desktop\InfoTech\svg\call.svg" alt="tell-icon">
+                <span> <a href="tel:+992 44 600 11 77"> +992 44 600 11 77</a></span>
+            </div>
+        </div>
+        <div class="header-middle">
+            <img class="logo" src="C:\Users\tahmi\Desktop\InfoTech\svg\logotip.svg" alt="logotip">
+
+            <nav class="header_nav">
+                <a href="http://infotech.tj/">Главная</a>
+                <a href="http://infotech.tj/about_us.html">О нас</a>
+                <a href="http://infotech.tj/service.html">Услуги</a>
+                <a href="http://infotech.tj/advantage.html">Преимущества</a>
+                <a href="http://infotech.tj/partners.html">Партнёры</a>
+                <a href="http://infotech.tj/contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="location_map">
+            <h1>Наш офис на <span>карте</span></h1>
+            <img src="C:\Users\tahmi\Desktop\InfoTech\jpg\map_1.jpg" alt="Map" width="1440" height="600">
+        </div>
+        <div>
+            <h2>Напишите <span>нам</span></h2>
+            <div class="contacts_form">
+                <div class="contacts">
+                    <span>Адрес</span>
+                    <p><strong>г.Душанбе<br> ул. Дружба Народов 62</strong></p>
+                    <span>Контакты</span>
+                    <p><strong>support@infotech.tj<br>  +992 44 600 11 77</strong></p>
+                    <span>Часы работы</span>
+                    <p><strong>Пн — Пт 9:00 — 21:00</strong></p>
+                </div>
+                <div class="form">
+                    <form action="request.js" name="first form" autocomplete="on">
+                        <div class="min-text">    
+                            <textarea name="name" id="1" cols="25" rows="3" placeholder="Ваше имя"></textarea>
+                            <textarea name="phone" id="2" cols="25" rows="3" placeholder="Ваш телефон"></textarea>
+                        </div>
+                        <div class="problem_text">
+                            <textarea name="problem" id="3" cols="55" rows="10" placeholder="Опишите проблему"></textarea>
+                        </div>
+                        <label>
+                            <input class="check" type="checkbox" value="option">
+                            Я согласен с обработкой персональных данных
+                        </label>
+                        <div class="buttons">
+                            <button class="button4"><span>Отправить</span></button>
+                            <button class="button5">+ Прикрепить файл</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-part">
+           <div class="schedule">
+                <img src="C:\Users\tahmi\Desktop\InfoTech\svg\logotip.svg" alt="Logotip">
+                <p>Понедельник - Суббота (09:00 - 17:00)<br>
+                    Воскресенье - выходной</p>
+            </div>
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <div class="telephone">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\telephone.svg" alt="Telephone" width="20" height="20">
+                    <span>44  600  1177</span>
+                </div>
+                <div class="address">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\address.svg" alt="Address" width="20" height="20">
+                    <span>ул. Дружба Народов 62</span>
+                </div>
+                <div class="email">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\email.svg" alt="Mail" width="20" height="20">
+                    <span>service@infotech.tj</span>
+                </div>
+            </div>
+            <div class="menu">
+                <h3>Меню</h3>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="http://infotech.tj/about_us.html">О нас</a></li>
+                        <li><a href="http://infotech.tj/service.html">Услуги</a></li>
+                        <li><a href="http://infotech.tj/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social_media">
+                <h3>Соц. сети</h3>
+                <div class="social_icons">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\app_facebook_logo_.svg" alt="Facebook" width="50" height="50">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\app_instagram_logo.svg" alt="Instagram" width="50" height="50">
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\telegram_logo_messanger.svg" alt="Telegram" width="50" height="50">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>© infotech. Все права защищены.</p>
+    </footer>
+    <div class="modal">
+        <div class="modal_window">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn-close"><img src="C:\Users\tahmi\Desktop\InfoTech\svg\X.svg" width="15" height="15"></button>
+                </div>
+                <div class="modal-body">  
+                    <img src="C:\Users\tahmi\Desktop\InfoTech\svg\checkmark.svg" alt="Checkmark" width="230" height="230">  
+                    <p>Ваша заявка успешно отправлена</p>
+                    <span>В ближайшее время наш менеджер свяжется с вами</span>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+</body>
+</html>

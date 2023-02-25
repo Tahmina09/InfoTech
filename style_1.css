@@ -1,0 +1,396 @@
+/* Header Top */
+.header-top{
+    display: grid;
+    grid-auto-flow: column;
+    background: rgba(236, 240, 241, 0.2);
+    height: 40px;
+    min-width: 200px;
+    column-gap: 100px;
+    justify-content: space-around;
+}
+
+a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header Middle */
+.header-middle{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    height: 60px;
+    min-width: 200px;
+    column-gap: 100px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.header_nav{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+    align-self: center;
+}
+
+h1 span,
+h2 span,
+p span{
+    color: #EE3135;
+}
+
+/* Main Top */
+main{
+    margin-top: 120px;
+}
+
+.service_center{
+    margin-bottom: 120px;
+}
+
+h1{
+    width: 710px;
+    height: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #2C3E50;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+/* About service part */
+.about_service{
+    display: grid;
+}
+
+.about_service h2{
+    width: 350px;
+    height: 50px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2C3E50;
+}
+
+.abser1,
+.abser2{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 200px;
+    column-gap: 50px;
+}
+
+div p{
+    width: 560px;
+    height: 350px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2C3E50;
+}
+
+.abser1 img{
+    width: 600px;
+    height: 400px;
+    justify-self: center;
+    border-radius: 20px;
+    box-shadow: 80px -30px 0px #EE3135;
+}
+
+.abser2 img{
+    width: 600px;
+    height: 400px;
+    justify-self: center;
+    border-radius: 20px;
+    box-shadow: -80px -30px 0px #EE3135;
+}
+
+/* Partnership Part */
+.partnership h2{
+    width: 710px;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2C3E50;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+.companies{
+    display: grid;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.company1,
+.company2{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.company1 div,
+.company2 div{
+    width: 255px;
+    height: 255px;
+    background: #EFF2F2;
+}
+
+.company1 figure,
+.company2 figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.companies div figcaption{
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #2C3E50;
+    text-align: center;
+    margin-top: 55px;
+}
+
+figure.Acer figcaption, 
+figure.Asus figcaption{
+    margin-top: 80px;
+}
+
+figure.Fujitsu figcaption{
+    margin-top: 40px;
+}
+
+figure.AOS img{
+    align-self: center;
+}
+
+figure.AOS figcaption{
+    margin-top: 0;
+}
+
+/* Team Part */
+.our_team h2{
+    width: 330px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2C3E50;
+    margin-left: 100px;
+}
+
+.workers{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.workers figure{
+    display: grid;
+    margin-bottom: 100px;
+}
+
+.workers img{
+    margin-bottom: 20px;
+}
+
+.workers figcaption{
+    width: 180px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #788695;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.workers span{
+    width: 265px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #2C3E50;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.button3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    height: 60px;
+    background: #EE3135;
+    box-shadow: 0px 10px 16px rgba(238, 49, 53, 0.1);
+    border-color: #EE3135;
+    border-radius: 4px;
+    margin-bottom: 150px;
+}
+
+.button3 span{
+    width: 230px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* Diploma Part */
+.diplomas h2{
+    width: 440px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2C3E50;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.dip_img{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 60px;
+    margin-bottom: 150px;
+}
+
+/* Footer */
+footer{
+    display: grid;
+    width: 1430px;
+    height: 385px;
+    background: #171A27;
+}
+
+.footer-part{
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.schedule{
+    margin-top: 25px;
+}
+
+.schedule img{
+    margin-bottom: 30px;
+}
+
+.schedule p{
+    width: 250px;
+    height: 40px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.footer-part div h3{
+    width: 115px;
+    height: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.contacts div{
+    margin-bottom: 20px;
+}
+
+.contacts img{
+    vertical-align: middle;
+}
+
+.contacts div span{
+    width: 150px;
+    height: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.navigation{
+    padding: 0;
+}
+
+.navigation li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.navigation li a{
+    width: 150px;
+    height: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.social_icons img{
+    margin-right: 10px;
+}
+
+footer hr{
+    width: 1430px;
+    height: 0;
+    color: #FFFFFF;
+}
+
+footer p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+}
